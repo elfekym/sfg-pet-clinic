@@ -83,6 +83,12 @@
             <artifactId>bootstrap</artifactId>
             <version>${webjars-bootstrap.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>2.23.4</version>
+            <scope>test</scope>
+        </dependency>
         <!-- end of webjars -->
     </dependencies>
     <build>
@@ -127,6 +133,12 @@
                         <groupId>org.junit.platform</groupId>
                         <artifactId>junit-platform-surefire-provider</artifactId>
                         <version>${junit-platform.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.mockito</groupId>
+                        <artifactId>mockito-junit-jupiter</artifactId>
+                        <version>2.23.4</version>
+                        <scope>test</scope>
                     </dependency>
                 </dependencies>
             </plugin>
